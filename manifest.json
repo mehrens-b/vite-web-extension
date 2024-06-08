@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "<name in manifest.json>",
-  "description": "<description in manifest.json>",
+  "name": "Lionet Helper - TS",
+  "description": "A helper extension for Lionet",
   "options_ui": {
     "page": "src/pages/options/index.html"
   },
@@ -36,6 +36,14 @@
       ],
       "css": [
         "contentStyle.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://sungard02.mssu.edu:9001/StudentSelfService/adviseeList/adviseeList"
+      ],
+      "js": [
+        "src/pages/content/adviseelist.tsx"
       ]
     }
   ],

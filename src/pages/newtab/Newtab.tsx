@@ -18,6 +18,9 @@ export default function Newtab(): JSX.Element {
         >
           Learn React!
         </a>
+	<p>
+		More information
+	</p>
       </header>
     </div>
   );
